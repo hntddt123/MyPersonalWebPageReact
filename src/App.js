@@ -52,7 +52,7 @@ function App() {
               <div className="col-md-4">
               </div>
               <div className="col-md-4">
-                <img src={myWebPic} alt="MyPic" style={{ borderRadius: 200 }} />
+                <img className='img-fluid' src={myWebPic} alt="MyPic" style={{ borderRadius: 200 }} />
               </div>
               <div className="col-md-4">
               </div>
