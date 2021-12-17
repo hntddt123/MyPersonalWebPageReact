@@ -1,11 +1,15 @@
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import myWebPic from './images/myWebPic.jpg';
+import { Dropdown, Row, Col } from 'react-bootstrap';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faBars, faArrowUp, faGamepad } from '@fortawesome/free-solid-svg-icons';
+import { faFacebook, faTwitter, faLinkedin } from '@fortawesome/free-brands-svg-icons';
 
 function App() {
   return (
-    <div classNameName="App">
-      Header design from here
+    <div className="App">
+      {/* Header design from here */}
       <nav className="navbar navbar-custom">
         <div className="container-fluid">
           <ul className="nav navbar-nav pull-left">
@@ -13,25 +17,22 @@ function App() {
           </ul>
           {/*  Dropdown menu  */}
           <ul className="nav navbar-nav pull-right">
-            <li>
-              <a href="#Contact">Contact</a>
-            </li>
-            <li>
-              <a href="https://nientaigames.blogspot.com/">GameBlog</a>
-            </li>
             <li className="nav-item dropdown pull-right" >
-              <a href="#" className="nav-link dropdown-toggle" id="dropdownMenu" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                <span className="glyphicon glyphicon-menu-hamburger"></span>
-              </a>
-              <div className="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a className="dropdown-item" href="https://www.facebook.com/nientaiho"><i className="fa fa-facebook fa-2x" style={{ color: '#3b5998' }}></i></a>
-                <div className="divider"></div>
-                <a className="dropdown-item" href="https://plus.google.com/u/0/+hntddt1"><i className="fa fa-google-plus fa-2x" style={{ color: '#d34836' }}></i></a>
-                <div className="divider"></div>
-                <a className="dropdown-item" href="https://twitter.com/NientaiHo"><i className="fa fa-twitter fa-2x" style={{ color: '#0084b4' }}></i></a>
-                <div className="divider"></div>
-                <a className="dropdown-item" href="https://www.linkedin.com/in/nientaiho"><i className="fa fa-linkedin fa-2x" style={{ color: '#0084b4' }}></i></a>
-              </div>
+              <Dropdown>
+                <Dropdown.Toggle variant="dark">
+                  <FontAwesomeIcon icon={faBars} />
+                </Dropdown.Toggle>
+
+                <Dropdown.Menu variant="dark" className='text-center'>
+                  <Dropdown.Item href="https://www.facebook.com/nientaiho"><FontAwesomeIcon icon={faFacebook} style={{ color: '#3b5998' }} /></Dropdown.Item>
+                  <Dropdown.Divider />
+                  <Dropdown.Item href="https://twitter.com/NientaiHo"><FontAwesomeIcon icon={faTwitter} style={{ color: '#0084b4' }} /></Dropdown.Item>
+                  <Dropdown.Divider />
+                  <Dropdown.Item href="https://www.linkedin.com/in/nientaiho"><FontAwesomeIcon icon={faLinkedin} style={{ color: '#0084b4' }} /></Dropdown.Item>
+                  <Dropdown.Divider />
+                  <Dropdown.Item href="https://nientaigames.blogspot.com/"><FontAwesomeIcon icon={faGamepad} /> GameBlog</Dropdown.Item>
+                </Dropdown.Menu>
+              </Dropdown>
             </li>
           </ul>
         </div>
@@ -42,13 +43,8 @@ function App() {
             {/* Top Section */}
             {/* First Row */}
             <div className="row">
-              <div className="col-md-6">
-                <h1 style={{ color: 'white' }}>Hello, My name is Nientai Ho</h1>
+              <div className="col-md-12 text-center">
                 <h4 style={{ color: 'white' }}><blockquote>Love the world of cutting edge technology in a world of wonder</blockquote></h4>
-              </div>
-              <div className="col-md-4">
-              </div>
-              <div className="col-md-2">
               </div>
             </div>
             {/* Second Row */}
@@ -172,17 +168,17 @@ function App() {
 
       {/* Footer Section */}
       <div className="container">
-        <div className="row">
-          <div className="col-xs-4">
-            <h5>&copy; Copyright 2020, Nientai Ho</h5>
-          </div>
-          <div className="col-xs-4 text-center">
-            <a href="#" className="btn btn-success"><span className="glyphicon glyphicon-menu-up"></span></a>
-          </div>
-          <div className="col-xs-4 text-right">
+        <Row className="row">
+          <Col className="text-center">
+            <h5>&copy; Copyright 2021, Nientai Ho</h5>
+          </Col>
+          <Col className=" text-center">
+            <a href="#" className="btn btn-success"><FontAwesomeIcon icon={faArrowUp} style={{ color: '#FFFFFF' }} /></a>
+          </Col>
+          <Col className=" text-center">
             <h5>Dream is your future reality</h5>
-          </div>
-        </div>
+          </Col>
+        </Row>
       </div>
     </div >
   );
