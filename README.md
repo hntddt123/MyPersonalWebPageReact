@@ -31,9 +31,9 @@ https://nodejs.org/en/download/
 Run below code depends on which OS you are trying to build
 
 ```
-cd /dcr
+cd /yourReactProjectDirectory
 ```
-(change directory into your project folder ~/dcr) then type
+(change directory into your project folder ~/yourReactProjectDirectory) then type
 
 ```
 npm install
