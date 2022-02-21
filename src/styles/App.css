@@ -12,7 +12,7 @@ p {
 }
 
 .bg {
-  background-image: url("./images/Taipei.jpg");
+  background-image: url("../images/Taipei.jpg");
   background-size: cover;
   background-repeat: no-repeat;
 }
