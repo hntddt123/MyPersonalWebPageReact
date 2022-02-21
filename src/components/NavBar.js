@@ -10,6 +10,7 @@ function NavBar() {
         <ul className="nav navbar-nav pull-left">
           <li style={{ color: 'white' }}>Nientai Ho</li>
         </ul>
+
         {/*  Dropdown menu  */}
         <ul className="nav navbar-nav pull-right">
           <li className="nav-item dropdown pull-right" >
@@ -19,13 +20,24 @@ function NavBar() {
               </Dropdown.Toggle>
 
               <Dropdown.Menu variant="dark" className='text-center'>
-                <Dropdown.Item href="https://www.facebook.com/nientaiho"><FontAwesomeIcon icon={faFacebook} style={{ color: '#3b5998' }} /></Dropdown.Item>
+                <Dropdown.Item href="https://www.facebook.com/nientaiho">
+                  <FontAwesomeIcon icon={faFacebook} style={{ color: '#3b5998' }} />
+                </Dropdown.Item>
                 <Dropdown.Divider />
-                <Dropdown.Item href="https://twitter.com/NientaiHo"><FontAwesomeIcon icon={faTwitter} style={{ color: '#0084b4' }} /></Dropdown.Item>
+
+                <Dropdown.Item href="https://twitter.com/NientaiHo">
+                  <FontAwesomeIcon icon={faTwitter} style={{ color: '#0084b4' }} />
+                </Dropdown.Item>
                 <Dropdown.Divider />
-                <Dropdown.Item href="https://www.linkedin.com/in/nientaiho"><FontAwesomeIcon icon={faLinkedin} style={{ color: '#0084b4' }} /></Dropdown.Item>
+
+                <Dropdown.Item href="https://www.linkedin.com/in/nientaiho">
+                  <FontAwesomeIcon icon={faLinkedin} style={{ color: '#0084b4' }} />
+                </Dropdown.Item>
                 <Dropdown.Divider />
-                <Dropdown.Item href="https://nientaigames.blogspot.com/"><FontAwesomeIcon icon={faGamepad} /> GameBlog</Dropdown.Item>
+
+                <Dropdown.Item href="https://nientaigames.blogspot.com/">
+                  <FontAwesomeIcon icon={faGamepad} />
+                </Dropdown.Item>
               </Dropdown.Menu>
             </Dropdown>
           </li>
