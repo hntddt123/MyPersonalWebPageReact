@@ -1,3 +1,4 @@
+import React from 'react';
 import { Dropdown } from 'react-bootstrap';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBars, faGamepad } from '@fortawesome/free-solid-svg-icons';
@@ -13,13 +14,13 @@ function NavBar() {
 
         {/*  Dropdown menu  */}
         <ul className="nav navbar-nav pull-right">
-          <li className="nav-item dropdown pull-right" >
+          <li className="nav-item dropdown pull-right">
             <Dropdown>
               <Dropdown.Toggle variant="dark">
                 <FontAwesomeIcon icon={faBars} />
               </Dropdown.Toggle>
 
-              <Dropdown.Menu variant="dark" className='text-center'>
+              <Dropdown.Menu variant="dark" className="text-center">
                 <Dropdown.Item href="https://www.facebook.com/nientaiho">
                   <FontAwesomeIcon icon={faFacebook} style={{ color: '#3b5998' }} />
                 </Dropdown.Item>

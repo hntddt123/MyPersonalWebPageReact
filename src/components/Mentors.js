@@ -1,3 +1,5 @@
+import React from 'react';
+
 function Mentors() {
   return (
     <div>
@@ -5,6 +7,8 @@ function Mentors() {
       <p>Yenchi Ho (A.K.A My brother)</p>
       <p>Steve Jobs</p>
       <p>Elon Musk</p>
+      <p>Hideo Kojima</p>
+      <p>Venkat Subramaniam</p>
     </div>
   );
 }

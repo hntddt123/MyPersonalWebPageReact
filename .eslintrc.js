@@ -18,5 +18,8 @@ module.exports = {
     'react',
   ],
   rules: {
+    'react/jsx-filename-extension': 'off',
+    'react/self-closing-comp': 'off',
+    'comma-dangle': 'off',
   },
 };

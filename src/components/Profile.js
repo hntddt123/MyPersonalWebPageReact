@@ -1,3 +1,4 @@
+import React from 'react';
 import myWebPic from '../images/myWebPic.jpg';
 
 function Profile() {
@@ -17,7 +18,7 @@ function Profile() {
             <div className="col-md-4">
             </div>
             <div className="col-md-4">
-              <img className='img-fluid' src={myWebPic} alt="MyPic" style={{ borderRadius: 200 }} />
+              <img className="img-fluid" src={myWebPic} alt="MyPic" style={{ borderRadius: 200 }} />
             </div>
             <div className="col-md-4">
             </div>

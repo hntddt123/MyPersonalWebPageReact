@@ -1,6 +1,7 @@
-import Skills from "./Skills";
-import Hobby from "./Hobby";
-import Mentors from "./Mentors";
+import React from 'react';
+import Skills from './Skills';
+import Hobby from './Hobby';
+import Mentors from './Mentors';
 
 function AboutMe() {
   return (
