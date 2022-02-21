@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/MyPersonalWebPageReact/static/css/main.ce23bf4d.css",
-    "main.js": "/MyPersonalWebPageReact/static/js/main.2c58c3a9.js",
+    "main.css": "/MyPersonalWebPageReact/static/css/main.b38f5b28.css",
+    "main.js": "/MyPersonalWebPageReact/static/js/main.2f3a17e7.js",
     "static/js/787.5c5ee9c2.chunk.js": "/MyPersonalWebPageReact/static/js/787.5c5ee9c2.chunk.js",
     "static/media/Taipei.jpg": "/MyPersonalWebPageReact/static/media/Taipei.f1cdc2034f0063827c35.jpg",
     "static/media/myWebPic.jpg": "/MyPersonalWebPageReact/static/media/myWebPic.ecf35037ea11f7c12226.jpg",
     "index.html": "/MyPersonalWebPageReact/index.html",
-    "main.ce23bf4d.css.map": "/MyPersonalWebPageReact/static/css/main.ce23bf4d.css.map",
-    "main.2c58c3a9.js.map": "/MyPersonalWebPageReact/static/js/main.2c58c3a9.js.map",
+    "main.b38f5b28.css.map": "/MyPersonalWebPageReact/static/css/main.b38f5b28.css.map",
+    "main.2f3a17e7.js.map": "/MyPersonalWebPageReact/static/js/main.2f3a17e7.js.map",
     "787.5c5ee9c2.chunk.js.map": "/MyPersonalWebPageReact/static/js/787.5c5ee9c2.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ce23bf4d.css",
-    "static/js/main.2c58c3a9.js"
+    "static/css/main.b38f5b28.css",
+    "static/js/main.2f3a17e7.js"
   ]
 }
