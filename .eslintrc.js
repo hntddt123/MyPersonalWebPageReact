@@ -22,6 +22,7 @@ module.exports = {
     'react/jsx-filename-extension': 'off',
     'react/self-closing-comp': 'off',
     'comma-dangle': 'off',
-    'max-len': ['error', { code: 200 }]
+    'max-len': ['error', { code: 200 }],
+    'no-unused-vars': 'warn'
   },
 };
