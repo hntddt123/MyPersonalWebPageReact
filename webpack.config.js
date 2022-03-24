@@ -28,7 +28,7 @@ module.exports = {
         use: [MiniCssExtractPlugin.loader, 'css-loader'],
       },
       {
-        test: /\.(jpg|jpeg|png|gif|mp3|svg)$/,
+        test: /\.(jpg|jpeg|png|gif|mp3|svg|ico)$/,
         use: ['file-loader'],
       },
     ]
@@ -36,7 +36,8 @@ module.exports = {
   devtool: prod ? undefined : 'source-map',
   plugins: [
     new HtmlWebpackPlugin({
-      template: '/public/index.html',
+      template: './public/index.html',
+      favicon: './public/HDMM.ico'
     }),
     new MiniCssExtractPlugin(),
   ],
