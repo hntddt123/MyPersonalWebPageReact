@@ -31,7 +31,7 @@
     "test:coverage": "jest --coverage",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
+    "deploy": "gh-pages -d dist",
     "lint": "eslint src"
   },
   "browserslist": {
