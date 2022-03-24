@@ -29,6 +29,7 @@
     "build": "NODE_ENV=production webpack",
     "test": "jest",
     "test:coverage": "jest --coverage",
+    "test:watch": "jest --coverage --watch",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist",
