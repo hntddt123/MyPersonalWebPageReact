@@ -1,17 +1,31 @@
-import React from 'react';
+import { Title, Text, Grid } from '@mantine/core';
 
 function Skills() {
   return (
     <div>
-      <h3>🔬Skills</h3>
-      <h3>Fluent in</h3>
-      <h4>English</h4>
-      <h4>Chinese</h4>
-      <h4>Taiwanese</h4>
-      <h4>Javascript</h4>
-      <h3>Familiar with</h3>
-      <h4>C++</h4>
-      <h4>Java</h4>
+      <Title order={3}>🔬Skills</Title>
+      <Title order={3}>Languages</Title>
+      <Grid>
+        <Grid.Col span={6}>
+          <Title order={3}>Fluent in</Title>
+          <Text>English</Text>
+          <Text>Chinese</Text>
+          <Text>Taiwanese</Text>
+          <Text>Javascript</Text>
+        </Grid.Col>
+        <Grid.Col span={6}>
+          <Title order={3}>Familiar with</Title>
+          <Text>Japanese</Text>
+          <Text>C++</Text>
+          <Text>Java</Text>
+        </Grid.Col>
+      </Grid>
+      <Grid>
+        <Grid.Col span={12}>
+          <Title order={3}>Behavior</Title>
+          <Text>Growth Mindset</Text>
+        </Grid.Col>
+      </Grid>
     </div>
   );
 }

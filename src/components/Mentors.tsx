@@ -1,14 +1,14 @@
-import React from 'react';
+import { Title, Text } from '@mantine/core';
 
 function Mentors() {
   return (
     <div>
-      <h3>💪 Who Influenced Me</h3>
-      <p>Yenchi Ho (A.K.A My brother)</p>
-      <p>Steve Jobs</p>
-      <p>Elon Musk</p>
-      <p>Hideo Kojima</p>
-      <p>Venkat Subramaniam</p>
+      <Title order={3}>💪 Who Influenced Me</Title>
+      <Text>Yenchi Ho (A.K.A My brother)</Text>
+      <Text>Steve Jobs</Text>
+      <Text>Elon Musk</Text>
+      <Text>Hideo Kojima</Text>
+      <Text>Venkat Subramaniam</Text>
     </div>
   );
 }

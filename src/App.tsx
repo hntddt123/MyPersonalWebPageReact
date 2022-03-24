@@ -1,7 +1,7 @@
 import { useState } from 'react';
-import 'bootstrap/dist/css/bootstrap.min.css';
+
 import {
-  AppShell, Navbar, Header, AspectRatio, Image, Title,
+  AppShell, Header, AspectRatio, Image, Title, Group, Container,
   Space, Text, MantineProvider, ColorSchemeProvider, ColorScheme, MantineThemeOverride
 } from '@mantine/core';
 
@@ -10,7 +10,6 @@ import Contact from './components/Contact';
 import Projects from './components/Projects';
 import NavBar from './components/NavBar';
 import AboutMe from './components/AboutMe';
-import Profile from './components/Profile';
 import Skills from './components/Skills';
 import Hobby from './components/Hobby';
 import Mentors from './components/Mentors';
@@ -35,49 +34,52 @@ function App() {
   return (
     <ColorSchemeProvider colorScheme={colorScheme} toggleColorScheme={toggleColorScheme}>
       <MantineProvider theme={getMyTheme(colorScheme, font)} withGlobalStyles>
-        <div className="App">
-          <AppShell
-            padding="md"
-            navbar={(
-              <Navbar width={{ base: 300 }} p="xs">
-                <Navbar.Section>
-                  <Title align='center'>
-                    Nientai Ho
-                  </Title>
-                  <AspectRatio ratio={4 / 3} sx={{ maxWidth: 250 }} mx="auto">
-                    <Image
-                      src={myWebPic}
-                      alt="MyPic"
-                      style={{ borderRadius: 80 }}
-                    />
-                  </AspectRatio>
-                </Navbar.Section>
-                <Space h="lg" />
-                <Navbar.Section>
-                  <Text>
-                    Love the world of cutting edge technology in a world of wonder
-                  </Text>
-                  <AboutMe />
-                </Navbar.Section>
-              </Navbar>
-            )}
-            header={(
-              <Header height={80} p="xs">
-                <NavBar />
-              </Header>
-            )}
-          >
-            <Profile />
+        <AppShell
+          padding="md"
+          header={(
+            <Header height={60} p="xs">
+              <NavBar />
+            </Header>
+          )}
+        >
+          <Title order={2} align='center'>
+            Nien-Tai Ho
+          </Title>
+          <Space h='xs' />
+          <AspectRatio ratio={4 / 3} sx={{ maxWidth: 250 }} mx="auto">
+            <Image
+              src={myWebPic}
+              alt="MyPic"
+              style={{ borderRadius: 10 }}
+            />
+          </AspectRatio>
+          <Text align='center' weight={200}>
+            Love the world of cutting edge technology in a world of wonder
+          </Text>
+          <Container p='xs'>
+            <AboutMe />
+          </Container>
+          <Container p='xs'>
             <Skills />
+          </Container>
+          <Container p='xs'>
             <Hobby />
+          </Container>
+          <Container p='xs'>
             <Mentors />
+          </Container>
+          <Container p='xs'>
             <Projects />
-            <Contact />
-            <Footer />
-          </AppShell>
-        </div>
+          </Container>
+          <Container p='xs'>
+            <Group position="center">
+              <Contact />
+            </Group>
+          </Container>
+          <Footer />
+        </AppShell>
       </MantineProvider>
-    </ColorSchemeProvider>
+    </ColorSchemeProvider >
   );
 }
 

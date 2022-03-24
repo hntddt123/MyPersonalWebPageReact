@@ -1,23 +1,34 @@
 import React from 'react';
-import { Row, Col } from 'react-bootstrap';
+import { Grid, Group, Title, Text } from '@mantine/core';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faArrowUp } from '@fortawesome/free-solid-svg-icons';
 
 function Footer() {
   return (
-    <div className="container">
-      <Row className="row">
-        <Col className="text-center">
-          <h5>&copy; Copyright 2022, Nientai Ho</h5>
-        </Col>
-        <Col className=" text-center">
-          <a href="#Top" aria-label="ToTop" className="btn btn-success"><FontAwesomeIcon icon={faArrowUp} style={{ color: '#FFFFFF' }} /></a>
-        </Col>
-        <Col className=" text-center">
-          <h5>Dream is your future reality</h5>
-        </Col>
-      </Row>
-    </div>
+    <Grid>
+      <Grid.Col span={4}>
+        <Group position="left">
+          <Title order={5}>Dream is your future reality</Title>
+        </Group>
+      </Grid.Col>
+      <Grid.Col span={4}>
+        <Group position="center">
+          <Text
+            variant="link"
+            component="a"
+            href="#Top"
+            size='lg'
+          >
+            <FontAwesomeIcon href="#Top" icon={faArrowUp} />
+          </Text>
+        </Group>
+      </Grid.Col>
+      <Grid.Col span={4}>
+        <Group position="right">
+          <Title order={5}>&copy; Copyright 2022, Nien-Tai Ho</Title>
+        </Group>
+      </Grid.Col>
+    </Grid>
   );
 }
 

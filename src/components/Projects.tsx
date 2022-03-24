@@ -1,20 +1,10 @@
-import React from 'react';
+import { Title } from '@mantine/core';
 
 function Projects() {
   return (
     <div>
-      <div className="container">
-        <div className="row">
-          <div className="col-md-4">
-            <h3 id="Projects">🛠 Personal Projects</h3>
-            <h4>Repair Report iOS app with Swift</h4>
-          </div>
-          <div className="col-md-4">
-          </div>
-          <div className="col-md-4">
-          </div>
-        </div>
-      </div>
+      <Title order={3} id="Projects">🔨 Projects</Title>
+      <Title order={4}>This is my Personal Page Project</Title>
     </div>
   );
 }
