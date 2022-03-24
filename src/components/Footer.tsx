@@ -8,7 +8,7 @@ function Footer() {
     <div className="container">
       <Row className="row">
         <Col className="text-center">
-          <h5>&copy; Copyright 2021, Nientai Ho</h5>
+          <h5>&copy; Copyright 2022, Nientai Ho</h5>
         </Col>
         <Col className=" text-center">
           <a href="#Top" aria-label="ToTop" className="btn btn-success"><FontAwesomeIcon icon={faArrowUp} style={{ color: '#FFFFFF' }} /></a>

@@ -2,7 +2,7 @@ import React from 'react';
 
 function Projects() {
   return (
-    <div className="bg2">
+    <div>
       <div className="container">
         <div className="row">
           <div className="col-md-4">

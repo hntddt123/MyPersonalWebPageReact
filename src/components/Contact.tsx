@@ -2,7 +2,7 @@ import React from 'react';
 
 function Contact() {
   return (
-    <div className="bg1">
+    <div>
       <div className="container">
         <div className="row">
           <div className="col-md-12">
