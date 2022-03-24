@@ -23,6 +23,7 @@ module.exports = {
     'react/self-closing-comp': 'off',
     'comma-dangle': 'off',
     'max-len': ['error', { code: 200 }],
-    'no-unused-vars': 'warn'
+    'no-unused-vars': 'warn',
+    'react/react-in-jsx-scope': 'off'
   },
 };
