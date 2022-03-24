@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import {
-  AppShell, Navbar, Header, AspectRatio, Image,
+  AppShell, Navbar, Header, AspectRatio, Image, Title,
   Space, Text, MantineProvider, ColorSchemeProvider, ColorScheme, MantineThemeOverride
 } from '@mantine/core';
 
@@ -41,6 +41,9 @@ function App() {
             navbar={(
               <Navbar width={{ base: 300 }} p="xs">
                 <Navbar.Section>
+                  <Title align='center'>
+                    Nientai Ho
+                  </Title>
                   <AspectRatio ratio={4 / 3} sx={{ maxWidth: 250 }} mx="auto">
                     <Image
                       src={myWebPic}

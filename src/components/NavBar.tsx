@@ -1,7 +1,7 @@
 import React from 'react';
 import { Dropdown } from 'react-bootstrap';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faBars, faGamepad } from '@fortawesome/free-solid-svg-icons';
+import { faBars, faGamepad, faMoon, faSun } from '@fortawesome/free-solid-svg-icons';
 import { faFacebook, faTwitter, faLinkedin } from '@fortawesome/free-brands-svg-icons';
 import { ActionIcon, useMantineColorScheme } from '@mantine/core';
 
@@ -13,18 +13,20 @@ function NavBar() {
     <nav className="navbar navbar-custom">
       <div className="container-fluid">
         <ul className="nav navbar-nav pull-left">
-          <li style={{ color: 'white' }}>Nientai Ho</li>
+          <ActionIcon
+            variant="outline"
+            color={dark ? 'blue' : 'yellow'}
+            onClick={() => toggleColorScheme()}
+            title="Toggle color scheme"
+          >
+            {dark
+              ? <FontAwesomeIcon icon={faMoon} />
+              : <FontAwesomeIcon icon={faSun} />
+            }
+          </ActionIcon>
         </ul>
         <ul className="nav navbar-nav">
           <li>
-            <ActionIcon
-              variant="outline"
-              color={dark ? 'yellow' : 'blue'}
-              onClick={() => toggleColorScheme()}
-              title="Toggle color scheme"
-            >
-            </ActionIcon>
-            {colorScheme}
           </li>
         </ul>
 
