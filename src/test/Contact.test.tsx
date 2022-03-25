@@ -1,7 +1,14 @@
 import { shallow } from 'enzyme';
 import Contact from '../components/Contact';
 
-test('Contact renders', () => {
-  const wrapper = shallow(<Contact />);
-  expect(wrapper.exists()).toEqual(true);
+describe('FooContactter component test', () => {
+  let wrapper;
+
+  beforeAll(() => {
+    wrapper = shallow(<Contact />);
+  });
+
+  test('Contact renders', () => {
+    expect(wrapper.exists()).toEqual(true);
+  });
 });

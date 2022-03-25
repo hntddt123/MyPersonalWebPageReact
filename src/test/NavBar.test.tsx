@@ -1,7 +1,24 @@
-import { shallow } from 'enzyme';
+import 'jsdom-global/register';
+import { mount } from 'enzyme';
 import NavBar from '../components/NavBar';
+import { ColorScheme, ColorSchemeProvider } from '@mantine/core';
 
-test('NavBar renders', () => {
-  const wrapper = shallow(<NavBar />);
-  expect(wrapper.exists()).toEqual(true);
+describe('NavBar component test', () => {
+  let wrapper;
+
+  beforeAll(() => {
+    wrapper = mount(
+      <ColorSchemeProvider
+        colorScheme={'light'}
+        toggleColorScheme={
+          function (colorScheme?: ColorScheme): void {
+          }}>
+        <NavBar />);
+      </ColorSchemeProvider>
+    );
+  });
+
+  test('NavBar renders', () => {
+    expect(wrapper.exists()).toEqual(true);
+  });
 });

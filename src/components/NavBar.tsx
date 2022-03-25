@@ -6,7 +6,7 @@ import { ActionIcon, useMantineColorScheme, Menu, Button, Grid, Group } from '@m
 
 function NavBar() {
   const { colorScheme, toggleColorScheme } = useMantineColorScheme();
-  const dark = colorScheme === 'dark';
+  const dark = (colorScheme === 'dark');
 
   return (
     <Grid>

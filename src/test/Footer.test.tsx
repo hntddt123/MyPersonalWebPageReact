@@ -1,7 +1,14 @@
 import { shallow } from 'enzyme';
 import Footer from '../components/Footer';
 
-test('Footer renders', () => {
-  const wrapper = shallow(<Footer />);
-  expect(wrapper.exists()).toEqual(true);
+describe('Footer component test', () => {
+  let wrapper;
+
+  beforeAll(() => {
+    wrapper = shallow(<Footer />);
+  });
+
+  test('Footer renders', () => {
+    expect(wrapper.exists()).toEqual(true);
+  });
 });

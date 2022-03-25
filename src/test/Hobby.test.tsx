@@ -1,7 +1,14 @@
 import { shallow } from 'enzyme';
 import Hobby from '../components/Hobby';
 
-test('Hobby renders', () => {
-  const wrapper = shallow(<Hobby />);
-  expect(wrapper.exists()).toEqual(true);
+describe('Hobby component test', () => {
+  let wrapper;
+
+  beforeAll(() => {
+    wrapper = shallow(<Hobby />);
+  });
+
+  test('Hobby renders', () => {
+    expect(wrapper.exists()).toEqual(true);
+  });
 });

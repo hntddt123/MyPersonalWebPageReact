@@ -1,7 +1,15 @@
 import { shallow } from 'enzyme';
 import AboutMe from '../components/AboutMe';
 
-test('AboutMe renders', () => {
-  const wrapper = shallow(<AboutMe />);
-  expect(wrapper.exists()).toEqual(true);
+describe('AboutMe component test', () => {
+  let wrapper;
+
+  beforeAll(() => {
+    wrapper = shallow(<AboutMe />);
+  });
+
+  test('App renders', () => {
+    const wrapper = shallow(<AboutMe />);
+    expect(wrapper.exists()).toEqual(true);
+  });
 });

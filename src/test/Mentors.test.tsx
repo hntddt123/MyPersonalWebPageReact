@@ -1,7 +1,14 @@
 import { shallow } from 'enzyme';
 import Mentors from '../components/Mentors';
 
-test('Mentors renders', () => {
-  const wrapper = shallow(<Mentors />);
-  expect(wrapper.exists()).toEqual(true);
+describe('Mentors component test', () => {
+  let wrapper;
+
+  beforeAll(() => {
+    wrapper = shallow(<Mentors />);
+  });
+
+  test('Mentors renders', () => {
+    expect(wrapper.exists()).toEqual(true);
+  });
 });
