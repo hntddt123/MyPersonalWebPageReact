@@ -6,12 +6,12 @@ function Contact() {
       <div className="container">
         <div className="row">
           <div className="col-md-12">
-            <h3 id="Contact">📇 Contact Info</h3>
-            <h4>
+            <h3 className="text-center">Contact Info</h3>
+            <h5 className="text-center">
               <a href="mailto:nientaiho@gmail.com">
-                <span className="glyphicon glyphicon-envelope">nientaiho@gmail.com</span>
+                nientaiho@gmail.com
               </a>
-            </h4>
+            </h5>
           </div>
         </div>
       </div>

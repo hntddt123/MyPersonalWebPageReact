@@ -1,7 +1,3 @@
-.App {
-  text-align: center;
-}
-
 a:link {
   text-decoration: none;
 }
@@ -58,11 +54,9 @@ p {
 
 .overlay {
   background-color: rgba(26, 27, 30, 0.8);
-  z-index: 1;
 }
 
 .navbar-custom {
-  z-index: 1;
   position: -webkit-sticky;
   position: sticky;
   top: 0;

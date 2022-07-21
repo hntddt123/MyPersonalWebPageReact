@@ -2,7 +2,7 @@ import React from 'react';
 
 function Mentors() {
   return (
-    <div>
+    <div className="text-center">
       <h3>💪 Who Influenced Me</h3>
       <p>Yenchi Ho (A.K.A My brother)</p>
       <p>Steve Jobs</p>

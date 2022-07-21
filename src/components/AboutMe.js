@@ -9,7 +9,7 @@ function AboutMe() {
       <div className="container">
         <div className="row">
           <div className="col-md-4">
-            <h3 id="AboutMe">👨‍💻 About Me</h3>
+            <h3 className="text-center">👨‍💻 About Me</h3>
             <p>
               I am software developer and I like to know the logic behind the scene
               75% of me is made out of code
