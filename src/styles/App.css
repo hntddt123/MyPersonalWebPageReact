@@ -16,10 +16,16 @@ p {
   background-image: url("../images/Taipei.jpg");
   background-size: cover;
   background-repeat: no-repeat;
+  background-position: 0% 70%;
 }
 
 .bgDark {
   background-color: #1A1B1E;
+  color: #FFF5EE;
+}
+
+.bgDark2 {
+  background-color: #141517;
   color: #FFF5EE;
 }
 
@@ -29,8 +35,8 @@ p {
 }
 
 .container {
-  padding-top: 10px;
-  padding-bottom: 10px;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 .dropdown-menu {
@@ -45,11 +51,6 @@ p {
 
 .dropdown-item:hover {
   background-color: #141517;
-}
-
-.img-circle {
-  padding-top: 10px;
-  padding-bottom: 30px;
 }
 
 .overlay {

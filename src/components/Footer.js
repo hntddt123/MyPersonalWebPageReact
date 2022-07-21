@@ -5,7 +5,7 @@ import { faArrowUp } from '@fortawesome/free-solid-svg-icons';
 
 function Footer() {
   return (
-    <div className="bgDark">
+    <div className="bgDark2">
       <div className="container">
         <Row className="row">
           <Col xs={5} className="text-center">

@@ -17,15 +17,11 @@ function Profile() {
           </div>
           {/* Second Row */}
           <div className="row">
-            <div className="col-md-4">
-            </div>
-            <div className="col-md-4 text-center">
-              <img className="img-fluid" src={myWebPic} alt="MyPic" style={{ borderRadius: 100 }} />
+            <div className="col-md-12 text-center">
+              <img className="img-fluid" src={myWebPic} alt="MyPic" style={{ borderRadius: 10 }} />
               <h4 style={{ color: 'white' }}>
                 <blockquote>Love the world of cutting edge technology in a world of wonder</blockquote>
               </h4>
-            </div>
-            <div className="col-md-4">
             </div>
           </div>
         </div>
