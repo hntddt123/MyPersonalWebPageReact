@@ -11,8 +11,8 @@ function AboutMe() {
           <div className="col-md-4">
             <h3 className="text-center">👨‍💻 About Me</h3>
             <p>
-              I am software developer and I like to know the logic behind the scene
-              75% of me is made out of code
+              I am software developer and I like to know the logic behind the scene.
+              75% of me is made out of code.
               The rest 25%? You decide!
             </p>
             <Skills />
