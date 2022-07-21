@@ -5,13 +5,13 @@ function Skills() {
     <div>
       <h3>🔬Skills</h3>
       <h3>Fluent in</h3>
-      <h4>English</h4>
-      <h4>Chinese</h4>
-      <h4>Taiwanese</h4>
-      <h4>Javascript</h4>
+      <p>English</p>
+      <p>Chinese</p>
+      <p>Taiwanese</p>
+      <p>Javascript</p>
       <h3>Familiar with</h3>
-      <h4>C++</h4>
-      <h4>Java</h4>
+      <p>C++</p>
+      <p>Java</p>
     </div>
   );
 }

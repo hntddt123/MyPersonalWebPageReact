@@ -9,7 +9,6 @@ function NavBar() {
     <nav className="navbar navbar-custom">
       <div className="container-fluid">
         <ul className="nav navbar-nav pull-left">
-          <li style={{ color: 'white' }}>Nientai Ho</li>
         </ul>
 
         {/*  Dropdown menu  */}

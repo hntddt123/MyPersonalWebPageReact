@@ -5,18 +5,22 @@ import { faArrowUp } from '@fortawesome/free-solid-svg-icons';
 
 function Footer() {
   return (
-    <div className="container">
-      <Row className="row">
-        <Col className="text-center">
-          <h5>&copy; Copyright 2021, Nientai Ho</h5>
-        </Col>
-        <Col className=" text-center">
-          <a href="#Top" aria-label="ToTop" className="btn btn-success"><FontAwesomeIcon icon={faArrowUp} style={{ color: '#FFFFFF' }} /></a>
-        </Col>
-        <Col className=" text-center">
-          <h5>Dream is your future reality</h5>
-        </Col>
-      </Row>
+    <div className="bgDark">
+      <div className="container">
+        <Row className="row">
+          <Col className="text-center">
+            <h5>&copy; Copyright 2021, Nientai Ho</h5>
+          </Col>
+          <Col className=" text-center">
+            <a href="#Top" aria-label="ToTop" className="btn border">
+              <FontAwesomeIcon icon={faArrowUp} style={{ color: 'seashell' }} />
+            </a>
+          </Col>
+          <Col className=" text-center">
+            <h5>Dream is your future reality</h5>
+          </Col>
+        </Row>
+      </div>
     </div>
   );
 }
