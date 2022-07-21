@@ -6,42 +6,35 @@ import { faFacebook, faTwitter, faLinkedin } from '@fortawesome/free-brands-svg-
 
 function NavBar() {
   return (
-    <nav className="navbar navbar-custom">
-      <div className="container-fluid">
-        <ul className="nav navbar-nav pull-left">
-        </ul>
-
+    <nav className="nav navbar navbar-custom">
+      <div>
         {/*  Dropdown menu  */}
-        <ul className="nav navbar-nav pull-right">
-          <li className="nav-item dropdown pull-right">
-            <Dropdown>
-              <Dropdown.Toggle variant="dark">
-                <FontAwesomeIcon icon={faBars} />
-              </Dropdown.Toggle>
+        <Dropdown>
+          <Dropdown.Toggle variant="dark">
+            <FontAwesomeIcon icon={faBars} />
+          </Dropdown.Toggle>
 
-              <Dropdown.Menu variant="dark" className="text-center">
-                <Dropdown.Item href="https://www.facebook.com/nientaiho">
-                  <FontAwesomeIcon icon={faFacebook} style={{ color: '#3b5998' }} />
-                </Dropdown.Item>
-                <Dropdown.Divider />
+          <Dropdown.Menu style={{ padding: 0 }} variant="dark" className="text-center">
+            <Dropdown.Item href="https://www.facebook.com/nientaiho">
+              <FontAwesomeIcon icon={faFacebook} style={{ color: '#3b5998' }} />
+            </Dropdown.Item>
+            <Dropdown.Divider style={{ margin: 0 }} />
 
-                <Dropdown.Item href="https://twitter.com/NientaiHo">
-                  <FontAwesomeIcon icon={faTwitter} style={{ color: '#0084b4' }} />
-                </Dropdown.Item>
-                <Dropdown.Divider />
+            <Dropdown.Item href="https://twitter.com/NientaiHo">
+              <FontAwesomeIcon icon={faTwitter} style={{ color: '#0084b4' }} />
+            </Dropdown.Item>
+            <Dropdown.Divider style={{ margin: 0 }} />
 
-                <Dropdown.Item href="https://www.linkedin.com/in/nientaiho">
-                  <FontAwesomeIcon icon={faLinkedin} style={{ color: '#0084b4' }} />
-                </Dropdown.Item>
-                <Dropdown.Divider />
+            <Dropdown.Item href="https://www.linkedin.com/in/nientaiho">
+              <FontAwesomeIcon icon={faLinkedin} style={{ color: '#0084b4' }} />
+            </Dropdown.Item>
+            <Dropdown.Divider style={{ margin: 0 }} />
 
-                <Dropdown.Item href="https://nientaigames.blogspot.com/">
-                  <FontAwesomeIcon icon={faGamepad} />
-                </Dropdown.Item>
-              </Dropdown.Menu>
-            </Dropdown>
-          </li>
-        </ul>
+            <Dropdown.Item href="https://nientaigames.blogspot.com/">
+              <FontAwesomeIcon icon={faGamepad} />
+            </Dropdown.Item>
+          </Dropdown.Menu>
+        </Dropdown>
       </div>
     </nav>
   );
