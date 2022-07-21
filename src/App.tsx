@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import React, { useState } from 'react';
 
 import {
   AppShell, Header, AspectRatio, Image, Title, Group, Container,
@@ -46,7 +46,7 @@ function App() {
             Nien-Tai Ho
           </Title>
           <Space h='xs' />
-          <AspectRatio ratio={4 / 3} sx={{ maxWidth: 250 }} mx="auto">
+          <AspectRatio ratio={4 / 3} sx={{ maxWidth: 350 }} mx="auto">
             <Image
               src={myWebPic}
               alt="MyPic"
