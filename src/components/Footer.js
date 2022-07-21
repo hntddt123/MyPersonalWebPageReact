@@ -8,15 +8,15 @@ function Footer() {
     <div className="bgDark">
       <div className="container">
         <Row className="row">
-          <Col className="text-center">
+          <Col xs={5} className="text-center">
             <h5>&copy; Copyright 2022, Nientai Ho</h5>
           </Col>
-          <Col className="text-center">
+          <Col xs={2} className="text-center">
             <a href="#Top" aria-label="ToTop" className="btn btn-outline-light">
               <FontAwesomeIcon icon={faArrowUp} />
             </a>
           </Col>
-          <Col className="text-center">
+          <Col xs={5} className="text-center">
             <h5>Dream is your future reality</h5>
           </Col>
         </Row>
