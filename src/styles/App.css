@@ -53,6 +53,10 @@ p {
   background-color: #141517;
 }
 
+.img-fluid {
+  width: 250px;
+}
+
 .overlay {
   background-color: rgba(26, 27, 30, 0.8);
 }
