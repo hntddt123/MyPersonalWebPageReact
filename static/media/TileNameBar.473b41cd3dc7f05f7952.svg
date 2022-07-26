@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="550px" height="52px" viewBox="0 0 550 52" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>TileBar</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <path d="M250.799222,1.5 L301.973941,50.5001137 L21,50.5001137 C15.6152237,50.5001137 10.7402237,48.3175019 7.21141777,44.7886959 C3.68261184,41.25989 1.5,36.38489 1.5,31.0001137 L1.5,31.0001137 L1.5,21 C1.5,15.6152237 3.68261184,10.7402237 7.21141777,7.21141777 C10.7402237,3.68261184 15.6152237,1.5 21,1.5 L21,1.5 L250.799222,1.5 Z" id="Rectangle" stroke="#FFFFFF"></path>
+        <path d="M548.754465,1.5003615 L497.580124,50.5001137 L310,50.5001137 C304.615224,50.5001137 299.740224,48.3175019 296.211418,44.7886959 C292.682612,41.25989 290.5,36.38489 290.5,31.0001137 L290.5,31.0001137 L290.5,21.0757193 C290.50283,15.6919354 292.68605,10.8176204 296.214496,7.28814961 C299.742943,3.75867881 304.616624,1.57404454 310.000144,1.56965213 L310.000144,1.56965213 L548.754465,1.5003615 Z" id="Rectangle" stroke="#FFFFFF" transform="translate(420.000000, 26.000057) scale(-1, 1) translate(-420.000000, -26.000057) "></path>
+        <text id="Nien-Tai-Ho" font-family="PingFangTC-Regular, PingFang TC" font-size="36" font-weight="normal" fill="#FFFFFF">
+            <tspan x="23" y="39">Nien-Tai Ho</tspan>
+        </text>
+        <text id="LV.-27" font-family="PingFangTC-Regular, PingFang TC" font-size="36" font-weight="normal" fill="#FFFFFF">
+            <tspan x="410" y="39"> LV. 27</tspan>
+        </text>
+        <polygon id="Rectangle" fill-opacity="0.25" fill="#FFFFFF" points="251.081525 1 290.302883 1 342.231525 51 302.102583 51"></polygon>
+    </g>
+</svg>
