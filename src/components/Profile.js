@@ -10,16 +10,14 @@ function Profile() {
           {/* First Row */}
           <div className="row">
             <div className="col-md-12 text-center">
-              <h4 style={{ color: 'white' }}>
-                Nien-Tai Ho
-              </h4>
+              <div className="customTile" />
             </div>
           </div>
           {/* Second Row */}
           <div className="row">
             <div className="col-md-12 text-center">
               <img className="img-fluid" src={myWebPic} alt="MyPic" style={{ borderRadius: 10 }} />
-              <h4 style={{ color: 'white' }}>
+              <h4 style={{ color: 'white', paddingTop: 20 }}>
                 <blockquote>Love the world of cutting edge technology in a world of wonder</blockquote>
               </h4>
             </div>

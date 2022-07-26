@@ -71,3 +71,12 @@ p {
   padding: .5rem;
   justify-content: flex-end;
 }
+
+.customTile {
+  background-image: url('../images/TileNameBar.svg');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: 50%;
+  height: 50px;
+  margin-bottom: 20px;
+}
