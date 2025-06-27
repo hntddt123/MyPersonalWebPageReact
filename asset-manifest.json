@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/MyPersonalWebPageReact/static/css/main.cd74561e.css",
-    "main.js": "/MyPersonalWebPageReact/static/js/main.d67fb6b4.js",
-    "static/js/488.3c2c90ab.chunk.js": "/MyPersonalWebPageReact/static/js/488.3c2c90ab.chunk.js",
+    "main.css": "/MyPersonalWebPageReact/static/css/main.a9e42991.css",
+    "main.js": "/MyPersonalWebPageReact/static/js/main.2e8a06db.js",
+    "static/js/787.5c5ee9c2.chunk.js": "/MyPersonalWebPageReact/static/js/787.5c5ee9c2.chunk.js",
     "static/media/Taipei.jpg": "/MyPersonalWebPageReact/static/media/Taipei.f1cdc2034f0063827c35.jpg",
     "static/media/myWebPic.jpg": "/MyPersonalWebPageReact/static/media/myWebPic.ecf35037ea11f7c12226.jpg",
-    "static/media/TileNameBar.svg": "/MyPersonalWebPageReact/static/media/TileNameBar.d0f91b69b5429699036f3659723c4db2.svg",
+    "static/media/TileNameBar.svg": "/MyPersonalWebPageReact/static/media/TileNameBar.473b41cd3dc7f05f7952.svg",
     "index.html": "/MyPersonalWebPageReact/index.html",
-    "main.cd74561e.css.map": "/MyPersonalWebPageReact/static/css/main.cd74561e.css.map",
-    "main.d67fb6b4.js.map": "/MyPersonalWebPageReact/static/js/main.d67fb6b4.js.map",
-    "488.3c2c90ab.chunk.js.map": "/MyPersonalWebPageReact/static/js/488.3c2c90ab.chunk.js.map"
+    "main.a9e42991.css.map": "/MyPersonalWebPageReact/static/css/main.a9e42991.css.map",
+    "main.2e8a06db.js.map": "/MyPersonalWebPageReact/static/js/main.2e8a06db.js.map",
+    "787.5c5ee9c2.chunk.js.map": "/MyPersonalWebPageReact/static/js/787.5c5ee9c2.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.cd74561e.css",
-    "static/js/main.d67fb6b4.js"
+    "static/css/main.a9e42991.css",
+    "static/js/main.2e8a06db.js"
   ]
 }
