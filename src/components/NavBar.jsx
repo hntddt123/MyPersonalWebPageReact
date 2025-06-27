@@ -1,7 +1,7 @@
 import { Dropdown } from 'react-bootstrap';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBars, faGamepad } from '@fortawesome/free-solid-svg-icons';
-import { faFacebook, faTwitter, faLinkedin } from '@fortawesome/free-brands-svg-icons';
+import { faFacebook, faLinkedin, faXTwitter } from '@fortawesome/free-brands-svg-icons';
 
 function NavBar() {
   return (
@@ -20,7 +20,7 @@ function NavBar() {
             <Dropdown.Divider style={{ margin: 0 }} />
 
             <Dropdown.Item href='https://twitter.com/NientaiHo'>
-              <FontAwesomeIcon icon={faTwitter} style={{ color: '#0084b4' }} />
+              <FontAwesomeIcon icon={faXTwitter} />
             </Dropdown.Item>
             <Dropdown.Divider style={{ margin: 0 }} />
 
