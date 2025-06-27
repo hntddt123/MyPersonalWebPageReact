@@ -3,7 +3,7 @@
  * https://jestjs.io/docs/configuration
  */
 
-module.exports = {
+export default {
   // All imported modules in your tests should be mocked automatically
   // automock: false,
 
@@ -13,7 +13,7 @@ module.exports = {
   // The directory where Jest should store its cached dependency information
   // cacheDirectory: "/private/var/folders/q5/jdb3x_b119x10f9llt8v2f480000gn/T/jest_dx",
 
-  // Automatically clear mock calls, instances and results before every test
+  // Automatically clear mock calls, instances, contexts and results before every test
   clearMocks: true,
 
   // Indicates whether the coverage information should be collected while executing the test
@@ -50,6 +50,11 @@ module.exports = {
   // Make calling deprecated APIs throw helpful error messages
   // errorOnDeprecated: false,
 
+  // The default configuration for fake timers
+  // fakeTimers: {
+  //   "enableGlobally": false
+  // },
+
   // Force coverage collection from ignored files using an array of glob patterns
   // forceCoverageMatch: [],
 
@@ -62,8 +67,8 @@ module.exports = {
   // A set of global variables that need to be available in all test environments
   // globals: {},
 
-  // The maximum amount of workers used to run your tests.
-  // Can be specified as % or a number. E.g. maxWorkers: 10% will use 10% of your CPU amount + 1 as the maximum worker number. maxWorkers: 2 will use a maximum of 2 workers.
+  // The maximum amount of workers used to run your tests. Can be specified as % or a number.
+  // E.g. maxWorkers: 10% will use 10% of your CPU amount + 1 as the maximum worker number. maxWorkers: 2 will use a maximum of 2 workers.
   // maxWorkers: "50%",
 
   // An array of directory names to be searched recursively up from the requiring module's location
@@ -74,6 +79,8 @@ module.exports = {
   // An array of file extensions your modules use
   // moduleFileExtensions: [
   //   "js",
+  //   "mjs",
+  //   "cjs",
   //   "jsx",
   //   "ts",
   //   "tsx",
@@ -83,8 +90,8 @@ module.exports = {
 
   // A map from regular expressions to module names or to arrays of module names that allow to stub out resources with a single module
   moduleNameMapper: {
-    '\\.(jpg|jpeg|png|gif|eot|otf|webp|svg|ttf|woff|woff2|mp4|webm|wav|mp3|m4a|aac|oga)$': 'jest-transform-stub',
-    '\\.(css|less)$': 'identity-obj-proxy'
+    '\\.(jpg|jpeg|png|gif|eot|otf|webp|svg|ttf|woff|woff2|mp4|webm|wav|mp3|m4a|aac|oga)$': '<rootDir>/src/mocks/imageMock.js',
+    '\\.(css|less|scss|sass)$': 'identity-obj-proxy'
   },
 
   // An array of regexp pattern strings, matched against all module paths before considered 'visible' to the module loader
@@ -132,9 +139,8 @@ module.exports = {
   // setupFiles: [],
 
   // A list of paths to modules that run some code to configure or set up the testing framework before each test
-  setupFilesAfterEnv: [
-    '<rootDir>/enzymeSetup.js'
-  ],
+  setupFilesAfterEnv: ['<rootDir>/src/setupTests.js'],
+
   // The number of seconds after which a test is considered as slow and reported as such in the results.
   // slowTestThreshold: 5,
 
@@ -142,7 +148,7 @@ module.exports = {
   // snapshotSerializers: [],
 
   // The test environment that will be used for testing
-  // testEnvironment: "jest-environment-node",
+  testEnvironment: 'jsdom',
 
   // Options that will be passed to the testEnvironment
   // testEnvironmentOptions: {},
@@ -170,14 +176,10 @@ module.exports = {
   // This option allows use of a custom test runner
   // testRunner: "jest-circus/runner",
 
-  // This option sets the URL for the jsdom environment. It is reflected in properties such as location.href
-  // testURL: "http://localhost",
-
-  // Setting this value to "fake" allows the use of fake timers for functions such as "setTimeout"
-  // timers: "real",
-
   // A map from regular expressions to paths to transformers
-  // transform: undefined,
+  transform: {
+    '\\.[jt]sx?$': 'babel-jest'
+  },
 
   // An array of regexp pattern strings that are matched against all source file paths, matched files will skip transformation
   // transformIgnorePatterns: [

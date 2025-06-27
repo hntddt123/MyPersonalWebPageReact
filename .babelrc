@@ -1,0 +1,19 @@
+{
+  "presets": [
+    [
+      "babel-preset-vite"
+    ],
+    [
+      "@babel/preset-env"
+    ],
+    [
+      "@babel/preset-typescript"
+    ],
+    [
+      "@babel/preset-react",
+      {
+        "runtime": "automatic" // For React auto import 
+      }
+    ]
+  ]
+}

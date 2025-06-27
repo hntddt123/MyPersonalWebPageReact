@@ -1,5 +1,4 @@
-import React from 'react';
-import { shallow } from 'enzyme';
+import { render, screen } from '@testing-library/react';
 import App from '../App';
 
 test('Canary', () => {
@@ -7,6 +6,7 @@ test('Canary', () => {
 });
 
 test('App renders', () => {
-  const wrapper = shallow(<App />);
-  expect(wrapper.exists()).toEqual(true);
+  render(<App />);
+  const linkElement = screen.getByText(/Nien-Tai Ho/i);
+  expect(linkElement).toBeInTheDocument();
 });
