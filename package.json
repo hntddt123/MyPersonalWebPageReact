@@ -29,7 +29,7 @@
     "test:coverage": "jest --coverage",
     "test:watch": "jest --verbose --watchAll",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
+    "deploy": "gh-pages -d dist",
     "lint": "eslint '**/*.{js,jsx,ts,tsx}'",
     "lint:fix": "eslint --fix '**/*.{js,jsx,ts,tsx}'"
   },
