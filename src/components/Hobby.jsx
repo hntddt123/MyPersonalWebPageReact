@@ -13,11 +13,13 @@ function Hobby() {
       <h4>🎮 Video Games</h4>
       <p>Half-Life series</p>
       <p>Metal Gear Solid series</p>
+      <p>Final Fantasy series</p>
       <p>Check my blog for more at top right corner...</p>
 
       <hr />
       <h4>📈 Finance</h4>
       <p>Stock Market</p>
+      <p>Crypto</p>
     </div>
   );
 }

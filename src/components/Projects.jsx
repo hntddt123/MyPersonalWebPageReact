@@ -5,6 +5,7 @@ function Projects() {
         <div className='row'>
           <div className='col-md-4'>
             <h3 id='Projects'>🛠 Personal Projects</h3>
+            Trip Border
           </div>
           <div className='col-md-4' />
           <div className='col-md-4' />

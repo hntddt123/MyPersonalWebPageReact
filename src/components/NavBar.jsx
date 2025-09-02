@@ -14,21 +14,10 @@ function NavBar() {
           </Dropdown.Toggle>
 
           <Dropdown.Menu style={{ padding: 0 }} variant='dark' className='text-center'>
-            <Dropdown.Item href='https://www.facebook.com/nientaiho'>
-              <FontAwesomeIcon icon={faFacebook} style={{ color: '#3b5998' }} />
-            </Dropdown.Item>
-            <Dropdown.Divider style={{ margin: 0 }} />
-
             <Dropdown.Item href='https://twitter.com/NientaiHo'>
               <FontAwesomeIcon icon={faXTwitter} />
             </Dropdown.Item>
             <Dropdown.Divider style={{ margin: 0 }} />
-
-            <Dropdown.Item href='https://www.linkedin.com/in/nientaiho'>
-              <FontAwesomeIcon icon={faLinkedin} style={{ color: '#0084b4' }} />
-            </Dropdown.Item>
-            <Dropdown.Divider style={{ margin: 0 }} />
-
             <Dropdown.Item href='https://nientaigames.blogspot.com/'>
               <FontAwesomeIcon icon={faGamepad} />
             </Dropdown.Item>

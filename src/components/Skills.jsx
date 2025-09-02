@@ -10,6 +10,7 @@ function Skills() {
       <p>Javascript</p>
       <hr />
       <h3>Familiar with</h3>
+      <p>Japanese</p>
       <p>C++</p>
       <p>Java</p>
     </div>

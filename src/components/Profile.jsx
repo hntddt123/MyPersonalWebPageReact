@@ -17,7 +17,7 @@ function Profile() {
           {/* Second Row */}
           <div className='row'>
             <div className='col-md-12 text-center'>
-              <img className='img-fluid' src={myWebPic} alt='MyPic' style={{ borderRadius: 10 }} />
+              <img className='img-fluid' src={myWebPic} alt='MyPic' style={{ borderRadius: 200 }} />
               <h4 style={{ color: 'white', paddingTop: 20 }}>
                 <blockquote>Love the world of cutting edge technology in a world of wonder</blockquote>
               </h4>
