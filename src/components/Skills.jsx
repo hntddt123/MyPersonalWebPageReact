@@ -7,7 +7,7 @@ function Skills() {
       <p>English</p>
       <p>Chinese</p>
       <p>Taiwanese</p>
-      <p>Javascript</p>
+      <p>JavaScript</p>
       <hr />
       <h3>Familiar with</h3>
       <p>Japanese</p>
