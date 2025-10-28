@@ -1,7 +1,7 @@
 import { Dropdown } from 'react-bootstrap';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBars, faGamepad } from '@fortawesome/free-solid-svg-icons';
-import { faFacebook, faLinkedin, faXTwitter } from '@fortawesome/free-brands-svg-icons';
+import { faXTwitter } from '@fortawesome/free-brands-svg-icons';
 
 function NavBar() {
   return (
