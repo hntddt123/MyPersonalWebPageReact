@@ -1,7 +1,7 @@
 function Hobby() {
   return (
     <div>
-      <h3 className='text-center'>❤️ What I love to do</h3>
+      <h3 className='text-center'>❤️ What I Love</h3>
       <hr />
       <h4>🎞 Movies & Animations</h4>
       <p>Cowboy Bebop</p>

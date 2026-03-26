@@ -4,7 +4,8 @@ function Projects() {
       <div className='container'>
         <div className='row'>
           <div className='col-md-4'>
-            <h3 id='Projects'>🛠 Personal Projects</h3>
+            <hr />
+            <h3 id='Projects'>🛠 Projects</h3>
             Trip Border
           </div>
           <div className='col-md-4' />

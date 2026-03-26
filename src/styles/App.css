@@ -8,8 +8,10 @@ a:link:hover {
 
 p {
   text-align: justify;
-  letter-spacing: 0.6px;
-  font-family: Helvetica, sans-serif;
+}
+
+div {
+  font-size: large;
 }
 
 .bg {
@@ -35,8 +37,8 @@ p {
 }
 
 .container {
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
 }
 
 .dropdown-menu {
@@ -68,7 +70,7 @@ p {
   margin-bottom: 0;
   border-radius: 0;
   background-color: #141517;
-  padding: .5rem;
+  padding: .25rem;
   justify-content: flex-end;
 }
 

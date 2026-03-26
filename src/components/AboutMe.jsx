@@ -10,10 +10,15 @@ function AboutMe() {
           <div className='col-md-4'>
             <h3 className='text-center'>👨‍💻 About Me</h3>
             <hr />
-            <p>
+            <div>
               Trip Border dev who likes to know the logic behind the scene.
+            </div>
+            <div>
               Borderless Adventures Awaits!
-            </p>
+            </div>
+            <div>
+              Fun Fact, I have photic sneeze reflex
+            </div>
             <Skills />
           </div>
           <div className='col-md-4'>

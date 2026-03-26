@@ -19,7 +19,7 @@ function Profile() {
             <div className='col-md-12 text-center'>
               <img className='img-fluid' src={myWebPic} alt='MyPic' style={{ borderRadius: 200 }} />
               <h4 style={{ color: 'white', paddingTop: 20 }}>
-                <blockquote>Software dev in a world of wonder. Fun Fact, I have photic sneeze reflex</blockquote>
+                <blockquote>Software dev in a world of wonder</blockquote>
               </h4>
             </div>
           </div>

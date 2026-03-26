@@ -1,8 +1,8 @@
 function Skills() {
   return (
     <div>
-      <h3>🔬Skills</h3>
       <hr />
+      <h3>🔬Skills</h3>
       <h3>Fluent in</h3>
       <p>English</p>
       <p>Chinese</p>
