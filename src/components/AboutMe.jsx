@@ -11,9 +11,8 @@ function AboutMe() {
             <h3 className='text-center'>👨‍💻 About Me</h3>
             <hr />
             <p>
-              Trip Border software developer who likes to know the logic behind the scene.
-              75% of me is made out of code.
-              The rest 25%? You decide!
+              Trip Border dev who likes to know the logic behind the scene.
+              Borderless Adventures Awaits!
             </p>
             <Skills />
           </div>

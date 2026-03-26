@@ -8,7 +8,7 @@ function Footer() {
       <div className='container'>
         <Row className='row'>
           <Col xs={5} className='text-center'>
-            <h5>&copy; Copyright 2025, Nientai Ho</h5>
+            <h5>&copy; Copyright 2026, Nientai Ho</h5>
           </Col>
           <Col xs={2} className='text-center'>
             <a href='#Top' aria-label='ToTop' className='btn btn-outline-light'>
