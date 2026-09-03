@@ -70,5 +70,11 @@
     "identity-obj-proxy": "^3.0.0",
     "jest": "^30.0.3",
     "jest-transform-stub": "^2.0.0"
+  },
+  "allowScripts": {
+    "core-js@3.49.0": true,
+    "fsevents@2.3.3": true,
+    "unrs-resolver@1.12.2": true,
+    "esbuild@0.28.1": true
   }
 }
